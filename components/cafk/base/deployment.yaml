@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: cafk
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-vrha-tenant/byoc-app-mcrv/cafk@sha256:48d44af091668180a5b51c74d9fbf0ca9f9c9c0bda9373bf53bfa12fa931733b
         name: my-java-quarkus
         ports:
         - containerPort: 8081
